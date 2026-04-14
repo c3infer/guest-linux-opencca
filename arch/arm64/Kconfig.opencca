@@ -1,0 +1,16 @@
+menu "OpenCCA Options"
+
+config OPENCCA_RESERVE_ASIDS
+	bool "Reserve ASIDs for RMM"
+	default y
+	help
+	  Reserve ASIDs for RMM
+
+config OPENCCA_HW_DEBUG
+	bool "Enable Hardware Debugging"
+    default n
+	help
+	  Enable hardware debugging
+
+
+endmenu
